@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/947d14f1-1d33-49d2-b9ea-8d5d1b1cb29c)# Conditional GAN for Fashion MNIST: T-shirt and Trouser Classification
+# Conditional GAN for Fashion MNIST: T-shirt and Trouser Classification
 
 ## Overview
 
@@ -34,7 +34,7 @@ The model was trained for **50 epochs** on the Fashion MNIST dataset. The Genera
 
 - **Discriminator Loss**: Initially, the Discriminator performed well, distinguishing real from fake images. As the Generator improved, the Discriminator's task became more challenging, but it continued to refine its classification ability.
 - **Generator Loss**: Over time, the Generator's loss decreased as it became better at fooling the Discriminator, creating more realistic images.
-![image](https://github.com/user-attachments/assets/2819167e-faeb-4c7b-afb2-3c5f7932c83a)
+![image](https://github.com/user-attachments/assets/03b574e6-21fb-4cbd-bc0b-4fd717a43a3f)
 
 ### **Fréchet Inception Distance (FID)**
 
@@ -48,5 +48,3 @@ Future work could focus on:
 - Enhancing the model architecture to further reduce the FID score.
 - Training for more epochs to allow the Generator to refine its outputs.
 - Exploring alternative GAN architectures or loss functions to improve performance.
-
-
